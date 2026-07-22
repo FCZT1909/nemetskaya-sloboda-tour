@@ -1,5 +1,0 @@
-.house{right:0;bottom:42px;width:min(52vw,780px);height:510px;background-color:transparent;background-position:bottom right;background-repeat:no-repeat;background-size:contain}
-.roof,.facade{display:none}
-.about h2{font-size:clamp(36px,4.8vw,66px);line-height:.93;letter-spacing:-.055em}
-.stamp{display:none}
-@media(max-width:700px){.house{bottom:20px;width:83vw;height:310px;opacity:.83}.about h2{font-size:44px}}
