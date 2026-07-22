@@ -1,0 +1,9 @@
+{
+  "name": "nemetskaya-sloboda-tour",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-07-22",
+  "vars": {
+    "TELEGRAM_CHAT_ID": "8963364035"
+  }
+}
+
