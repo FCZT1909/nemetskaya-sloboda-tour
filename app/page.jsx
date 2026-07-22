@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const slots = ['10:00вЂ“12:00', '12:00вЂ“14:00', '14:00вЂ“16:00', '16:00вЂ“18:00', '18:00вЂ“20:00'];
+const slots = ['10:00–12:00', '12:00–14:00', '14:00–16:00', '16:00–18:00', '18:00–20:00'];
 
 export default function Home() {
   const [slot, setSlot] = useState('');
@@ -17,44 +17,43 @@ export default function Home() {
 
   return <main>
     <section className="hero">
-      <div className="topline"><span>РџР•РЁРР• РРЎРўРћР РР</span><span>РњРћРЎРљР’Рђ В· 25 РР®Р›РЇ</span></div>
+      <div className="topline"><span>ПЕШИЕ ИСТОРИИ</span><span>МОСКВА · 25 ИЮЛЯ</span></div>
       <div className="hero-copy">
-        <p className="eyebrow">РћРљРўРЇР‘Р Р¬РЎРљРћР• РџРћР›Р•</p>
-        <h1>РќРµРјРµС†РєР°СЏ<br/><i>СЃР»РѕР±РѕРґР°</i></h1>
-        <p className="lead">РќРµСЃРїРµС€РЅР°СЏ РїСЂРѕРіСѓР»РєР° РїРѕ СЂР°Р№РѕРЅСѓ СЃ РёСЃС‚РѕСЂРёРµР№, РІРѕРїСЂРѕСЃР°РјРё Рё РІРёС€РЅС‘РІС‹Рј С„РёР»СЊС‚СЂРѕРј.</p>
-        <a className="cta" href="#booking">Р’С‹Р±СЂР°С‚СЊ РІСЂРµРјСЏ <span>в†“</span></a>
+        <p className="eyebrow">ОКТЯБРЬСКОЕ ПОЛЕ</p>
+        <h1>Немецкая<br/><i>слобода</i></h1>
+        <p className="lead">Неспешная прогулка по району с историей, вопросами и вишнёвым фильтром.</p>
+        <a className="cta" href="#booking">Выбрать время <span>↓</span></a>
       </div>
-      <div className="stamp">25<br/><small>РР®Р›РЇ</small></div>
+      <div className="stamp">25<br/><small>ИЮЛЯ</small></div>
       <div className="house"><div className="roof"/><div className="facade"><span/><span/><span/><span/><span/><span/></div></div>
     </section>
 
     <section className="about">
-      <p className="section-label">Р§РўРћ РўР•Р‘РЇ Р–Р”РЃРў</p>
+      <p className="section-label">ЧТО ТЕБЯ ЖДЁТ</p>
       <div className="about-grid">
-        <h2>РљРІР°СЂС‚Р°Р»,<br/>РєРѕС‚РѕСЂС‹Р№<br/><i>РІС‹РґРµР»СЏРµС‚СЃСЏ</i><br/>РёР·СЏС‰РµСЃС‚РІРѕРј С„РѕСЂРј<br/>Рё СѓСЋС‚РѕРј</h2>
-        <div><p>РўС‹ РїРѕР·РЅР°РєРѕРјРёС€СЊСЃСЏ СЃ В«РЅРµРјРµС†РєРѕР№ СЃР»РѕР±РѕРґРѕР№В» вЂ” РµС‘ Р°С‚РјРѕСЃС„РµСЂРѕР№, РґРµС‚Р°Р»СЏРјРё Рё РёСЃС‚РѕСЂРёСЏРјРё. Р“РёРґ РїСЂРѕРІРµРґС‘С‚ РїРѕ РјР°СЂС€СЂСѓС‚Сѓ, Р° С‚С‹ СЃРјРѕР¶РµС€СЊ Р·Р°РґР°С‚СЊ Р»СЋР±С‹Рµ РІРѕРїСЂРѕСЃС‹.</p><p>Р’ РїСЂРѕРіСѓР»РєСѓ РІС…РѕРґРёС‚ РґРµРіСѓСЃС‚Р°С†РёСЏ РІРёС€РЅС‘РІРѕРіРѕ С„РёР»СЊС‚СЂР°. Рђ РµСЃР»Рё Р·Р°С…РѕС‡РµС€СЊ РїСЂРѕРґРѕР»Р¶РёС‚СЊ Р·РЅР°РєРѕРјСЃС‚РІРѕ СЃРѕ РІРєСѓСЃР°РјРё, РїРѕРїСЂРѕР±СѓРµС€СЊ Рё РґСЂСѓРіРёРµ РЅР°РїРёС‚РєРё РёР· РєРѕР»Р»РµРєС†РёРё.</p></div>
+        <h2>Квартал,<br/>который<br/><i>выделяется</i><br/>изяществом форм<br/>и уютом</h2>
+        <div><p>Ты познакомишься с «немецкой слободой» — её атмосферой, деталями и историями. Гид проведёт по маршруту, а ты сможешь задать любые вопросы.</p><p>В прогулку входит дегустация вишнёвого фильтра. А если захочешь продолжить знакомство со вкусами, попробуешь и другие напитки из коллекции.</p></div>
       </div>
     </section>
 
     <section className="details">
-      <div><span>РљРћР“Р”Рђ</span><strong>25 РёСЋР»СЏ</strong></div>
-      <div><span>Р”Р›РРўР•Р›Р¬РќРћРЎРўР¬</span><strong>2 С‡Р°СЃР°</strong></div>
-      <div><span>Р’РЎРўР Р•Р§Рђ</span><strong>Рј. В«РћРєС‚СЏР±СЂСЊСЃРєРѕРµ РїРѕР»РµВ»<br/>РІС‹С…РѕРґ 2</strong></div>
+      <div><span>КОГДА</span><strong>25 июля</strong></div>
+      <div><span>ДЛИТЕЛЬНОСТЬ</span><strong>2 часа</strong></div>
+      <div><span>ВСТРЕЧА</span><strong>м. «Октябрьское поле»<br/>выход 2</strong></div>
     </section>
 
     <section id="booking" className="booking">
-      <div><p className="section-label">Р—РђРџРРЎР¬ РќРђ РџР РћР“РЈР›РљРЈ</p><h2>Р’С‹Р±РµСЂРё<br/><i>СЃРІРѕР№ РјР°СЂС€СЂСѓС‚</i></h2><p className="note">РћСЃС‚Р°РІСЊ С‚РµР»РµС„РѕРЅ вЂ” С‚РѕР»СЊРєРѕ С‡С‚РѕР±С‹ РЅРµ РїРѕС‚РµСЂСЏС‚СЊСЃСЏ РІ РґРµРЅСЊ СЌРєСЃРєСѓСЂСЃРёРё.</p></div>
+      <div><p className="section-label">ЗАПИСЬ НА ПРОГУЛКУ</p><h2>Выбери<br/><i>свой маршрут</i></h2><p className="note">Оставь телефон — только чтобы не потеряться в день экскурсии.</p></div>
       <form onSubmit={submit}>
-        <label>25 РР®Р›РЇ В· Р’Р Р•РњРЇ РџР РћР“РЈР›РљР</label>
+        <label>25 ИЮЛЯ · ВРЕМЯ ПРОГУЛКИ</label>
         <div className="slots">{slots.map(s => <button type="button" onClick={() => setSlot(s)} className={slot === s ? 'selected' : ''} key={s}>{s}</button>)}</div>
-        <label htmlFor="phone">РќРћРњР•Р  РўР•Р›Р•Р¤РћРќРђ</label>
+        <label htmlFor="phone">НОМЕР ТЕЛЕФОНА</label>
         <input id="phone" required value={phone} onChange={e => setPhone(e.target.value)} placeholder="+7 (___) ___-__-__" type="tel"/>
-        <label className="check"><input required type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)}/><span>Р”Р°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</span></label>
-        <button className="submit" type="submit">{sent ? 'РўС‹ Р·Р°РїРёСЃР°РЅ(Р°) вЂ” РґРѕ РІСЃС‚СЂРµС‡Рё!' : 'Р—Р°Р±СЂРѕРЅРёСЂСѓР№ РјРµСЃС‚Рѕ'}</button>
-        {sent && <p className="success">Р’СЂРµРјСЏ: {slot}. РњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ С‚РѕР±РѕР№ РїРѕ СѓРєР°Р·Р°РЅРЅРѕРјСѓ РЅРѕРјРµСЂСѓ.</p>}
+        <label className="check"><input required type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)}/><span>Даю согласие на обработку персональных данных</span></label>
+        <button className="submit" type="submit">{sent ? 'Ты записан(а) — до встречи!' : 'Забронируй место'}</button>
+        {sent && <p className="success">Время: {slot}. Мы свяжемся с тобой по указанному номеру.</p>}
       </form>
     </section>
-    <footer>РќР•РњР•Р¦РљРђРЇ РЎР›РћР‘РћР”Рђ <span>В·</span> РњРћРЎРљР’Рђ <span>В·</span> 2026</footer>
+    <footer>НЕМЕЦКАЯ СЛОБОДА <span>·</span> МОСКВА <span>·</span> 2026</footer>
   </main>;
 }
-
